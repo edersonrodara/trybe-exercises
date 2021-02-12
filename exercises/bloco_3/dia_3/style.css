@@ -25,3 +25,40 @@
       border: 30px solid black;
   /* insira aqui uma borda com valor '5px solid black' para aplicá-la ao item D */
   }
+
+  .super-mario {
+      width: 200px;
+      z-index: 1;      
+      top: 300px;
+      position: absolute;            
+    }
+
+  .goomba {
+      width: 120px;
+      z-index: 2;      
+      top: 590px;
+      left: 110px;
+      position: absolute;      
+  }
+
+  .bowser {
+    width: 500px;
+    left: 350px;
+    top: 170px;
+    position: absolute;
+  }
+
+  .baloon {
+    width: 200px;
+    left: 230px;
+    top: 150px;
+    position: absolute;
+    z-index: 3;
+  }
+
+  .word {      
+      z-index: 4;
+      top: 180px;
+      left: 250px;
+      position: absolute;
+  }

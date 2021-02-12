@@ -1,0 +1,64 @@
+.caixa {
+    color: white;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: top;
+  }
+
+  .width-and-height {
+    height: 50px;
+    width: 50px;
+  }
+
+  .padding {
+      padding: 20px;
+  /* insira aqui um padding de 20px na classe abaixo para aplicá-lo aos itens B, C e D */
+  }
+
+  .margin {
+      margin: 20px;
+  /* insira aqui uma margem de 30px na classe abaixo para aplicá-la aos itens C e D */
+  }
+
+  .border {
+      border: 30px solid black;
+  /* insira aqui uma borda com valor '5px solid black' para aplicá-la ao item D */
+  }
+
+  .super-mario {
+      width: 200px;
+      z-index: 1;      
+      top: 300px;
+      position: absolute;            
+    }
+
+  .goomba {
+      width: 120px;
+      z-index: 2;      
+      top: 590px;
+      left: 110px;
+      position: absolute;      
+  }
+
+  .bowser {
+    width: 500px;
+    left: 350px;
+    top: 170px;
+    position: absolute;
+  }
+
+  .baloon {
+    width: 200px;
+    left: 230px;
+    top: 150px;
+    position: absolute;
+    z-index: 3;
+  }
+
+  .word {      
+      z-index: 4;
+      top: 180px;
+      left: 250px;
+      position: absolute;
+  }

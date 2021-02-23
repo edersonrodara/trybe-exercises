@@ -1,0 +1,18 @@
+nav {
+    text-align: center;
+}
+
+nav li{
+    display: inline;    
+    padding-right: 50px;
+    font-size: x-large;
+}
+
+body {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+aside {
+    display: inline;
+}

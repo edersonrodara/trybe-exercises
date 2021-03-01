@@ -25,9 +25,34 @@ let info = {
   recorrent: "Sim"
 };
 
-console.log(`Bem-vinda, ${info.personagem}`);
-console.log(info);
+let info2 = {
+  personagem: "Tio Patinhas",
+  origem: "Christmas on Bear Mountain, Dell's Four Color Comics #178",
+  nota: "O último MacPatinhas",
+  recorrent: "Sim"
+};
 
+console.log('------------------Exercício 1------------------');
+console.log(`Bem-vinda, ${info.personagem}`);
+console.log();
+
+console.log('------------------Exercício 2------------------');
+console.log(info);
+console.log();
+
+console.log('------------------Exercício 3------------------');
 for (const key in info) {
   console.log(key);
+}
+console.log();
+
+console.log('------------------Exercício 4------------------');
+for (const key in info) {
+  console.log(info[key]);
+}
+console.log();
+
+console.log('------------------Exercício 5------------------');
+for (const key in info2) {
+  console.log (info[key] + " e " + info2[key]);
 }

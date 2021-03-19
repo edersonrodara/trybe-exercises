@@ -1,0 +1,36 @@
+.grande {
+    font-size: 65px;
+    color: orange;
+}
+
+.listbonita {
+    background-color: paleturquoise;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+p {
+    font-weight: 600;
+    font-size: 3em;
+}
+body {
+    font-size: 16px;
+    font-style: italic;
+    line-height: 20px;
+    text-align: left;
+    text-decoration: red;
+    background-color: cadetblue;
+}
+
+#amarelo {
+    background-color: yellow;
+}
+
+#vermelhor {
+    background-color: red;
+}
+
+#marrom {
+    background-color: brown;
+}

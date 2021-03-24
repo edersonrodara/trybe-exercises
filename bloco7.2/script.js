@@ -46,13 +46,8 @@ const orderModifier = (order) => {
   order.order.delivery.deliveryPerson = 'Luiz Silva';
   order.payment.total = '50,00';
 
-  let newKey = 'muzzarella';
-  const muzzarella = '';
-  order.order.pizza[newKey] = muzzarella;
-
-  let newKey2 = 'calabresa';
-  const calabresa = '';
-  order.order.pizza[newKey2] = calabresa;
+  order.order.pizza['muzzarella'] = '';
+  order.order.pizza['calabresa'] = '';
 
   const pizzas = Object.keys(order.order.pizza);
 
@@ -63,4 +58,7 @@ const orderModifier = (order) => {
 }
 orderModifier(order);
 console.log(orderModifier(order));
+
+// console.table(order);
+
 
